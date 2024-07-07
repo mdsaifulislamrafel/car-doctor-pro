@@ -80,6 +80,7 @@ const Navbar = () => {
                     <FaCartPlus className='w-6 h-6' />
                     <FaSearch className='w-6 h-6' />
                     <button className="btn btn-outline btn-primary px-8">Appointment</button>
+                    <Link href={'/login'}><button className="btn btn-primary px-8">Login</button></Link>
                 </div>
             </div>
         </div>
